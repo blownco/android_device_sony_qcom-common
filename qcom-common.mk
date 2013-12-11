@@ -47,9 +47,11 @@ PRODUCT_PACKAGES += \
     libmm-omxcore \
     libstagefrighthw
 
+ifneq ($(filter msm8974 msm8x74,$(TARGET_BOARD_PLATFORM)),)
 # Power
 PRODUCT_PACKAGES += \
     power.qcom
+endif
 
 # Lights
 PRODUCT_PACKAGES += \
