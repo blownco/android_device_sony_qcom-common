@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     libmemalloc \
     liboverlay \
     libqdutils \
+	libqdMetaData \
     libtilerenderer \
     libI420colorconvert
 
@@ -40,6 +41,7 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxQcelp13Enc \
     libOmxVdec \
+	libOmxVdecHevc \
     libOmxVenc \
     libc2dcolorconvert \
     libdashplayer \
