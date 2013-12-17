@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     libmemalloc \
     liboverlay \
     libqdutils \
+	libqdMetaData \
     libtilerenderer \
     libI420colorconvert
 
