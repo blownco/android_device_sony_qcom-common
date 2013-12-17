@@ -41,6 +41,7 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxQcelp13Enc \
     libOmxVdec \
+	libOmxVdecHevc \
     libOmxVenc \
     libc2dcolorconvert \
     libdashplayer \
